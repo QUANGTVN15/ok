@@ -1,3 +1,7 @@
+.main{
+  ??
+}
+
 .globalheader {
     padding: 80px;
     background: #1abc9c;
@@ -5,9 +9,52 @@
     font-size: 30px;
   }
 
-.globalheader .navright .headernav{
+.headerLogo{
+  ??
+}
+
+.headerLogo img {
+  width: 150px;
+  height: 300px;
+  border-radius: 22%;
+}
+
+.header-nav-right a{
   float: right;
+  color: white;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
   font-size: 50px;
-  font-display: red;
+  border-style:solid ;
   border-radius: 10%;
+}
+
+.scifi{
+  background-color: black;
+  margin: 30px
+}
+
+.romance{
+  background-color: palevioletred;
+  margin: 30px
+}
+
+.catname{
+  text-align: center;
+  color: white;
+}
+
+.globalfooter{
+  margin-top: 30px;
+  padding: 20px;
+  background: #1abc9c;
+  color: white;
+}
+
+.footer-nav-right a{
+  float:right;
+  color: white;
+  text-decoration: none;
+
 }
