@@ -1,6 +1,6 @@
 /* Main Page */
 .body{
-  ??
+  ?
 }
 
 .globalheader {
@@ -11,7 +11,7 @@
   }
 
 .headerLogo{
-  ??
+  ?
 }
 
 .headerLogo img {
@@ -33,12 +33,34 @@
 
 .scifi{
   background-color: black;
-  margin: 30px
+  color: antiquewhite;
+  margin: 30px;
+  border-radius: 2%;
+}
+.scifi img{
+  width: 250px;
+  height: 400px;
+  margin-top: 30px;
+  margin-inline: 98px;
+  margin-bottom: 22px;
+  background-color: white;
+  padding: 8px;
 }
 
 .romance{
   background-color: palevioletred;
-  margin: 30px
+  color: antiquewhite;
+  margin: 30px;
+  border-radius: 2%;
+}
+.romance img{
+  width: 250px;
+  height: 400px;
+  margin-top: 30px;
+  margin-inline: 98px;
+  margin-bottom: 22px;
+  background-color: white;
+  padding: 8px;
 }
 
 .catname{
