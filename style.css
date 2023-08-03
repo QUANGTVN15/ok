@@ -10,23 +10,28 @@
     font-size: 30px;
   }
 
-.headerLogo{
-  ?
+.logo img{
+  ??
+}
+
+main {
+  margin-top: 15px;
+  padding: 10px 16px;
+  background-color: #eee;
 }
 
 .headerLogo img {
-  width: 150px;
-  height: 300px;
-  border-radius: 22%;
+  width: auto;
+  height: 200px;
 }
 
 .header-nav-right a{
   float: right;
   color: white;
   text-align: right;
-  padding: 14px 16px;
+  padding: 14px 10px;
   text-decoration: none;
-  font-size: 50px;
+  font-size: 30px;
   border-style:solid ;
   border-radius: 10%;
 }
@@ -69,6 +74,15 @@
   color: white;
 }
 
+.more-categories{
+  text-align: center;
+}
+.more-categories a{
+  color: black;
+
+}
+
+
 .globalfooter{
   margin-top: 30px;
   padding: 20px;
@@ -87,6 +101,23 @@
 /* Romance */
 
 /* Contact Us */
+.form{
+
+}
+.heading{
+  text-align: center;
+  padding: 10px 16px;
+  background-color: #eee;
+}
+.form{
+  background-color: white;
+  color: black;
+  padding: 30px;
+}
+.submitbutton{
+  color: red;
+  font-size: 20px;
+}
 
 /* Books */
 ul.breadcrumb {
@@ -111,4 +142,17 @@ ul.breadcrumb li a {
 ul.breadcrumb li a:hover {
   color: #01447e;
   text-decoration: underline;
+}
+
+.bookinfo{
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #eee;
+}
+
+.bookdescrip{
+  
+}
+.bookdescrip p{
+  font-size:medium;
 }

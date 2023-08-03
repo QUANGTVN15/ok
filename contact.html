@@ -2,10 +2,88 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    
+<header class="globalheader">
+    <div class="headerLogo">
+        <a href="index.html">
+            <img src="logo.png" alt="LeLogo">
+        </a>
+    </div>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <div class="header-nav-right">
+        <nav class = "headernav">
+            <a href="./bronny.jpg"><i class="fa fa-fw fa-home"></i>Home</a>
+            <a href="./bronny1.jpg"><i class="fa fa-fw fa-rocket"></i>Sci-fi</a>
+            <a href="/js/"><i class="fa fa-fw fa-heart"></i>Romance</a>
+            <a href="/python/">LeBron</a>
+        </nav>
+    </div>
+</header>
+
+<h1 class="heading">CONTACT US</h1>
+
+<main>
+    <div class="form">
+        <form action="" method="get"></form>
+            <h2>What do you want to do?</h2>
+            <label for="choose-purpose">Purpose:</label>
+            <select name="purpose" id="choose-purpose">
+                <option value="">--Choose an option--</option>
+                <option value="buy">I want to buy books</option>
+                <option value="sell">I want to sell books</option>
+            </select>
+            
+            <h2>Enter your personal information</h2>
+            <label for="customername">Name:</label>
+            <input id="customername" name="customername" type="text" placeholder="Quang">
+            <h3></h3>
+            <label for="customeremail">Email:</label>
+            <input id="customeremail" name="customeremail" type="email" placeholder="example@gmail.com">
+            <h3></h3>
+            <label for="customerphone">Phone:</label>
+            <input id="customerphone" name="customerphone" type="number" placeholder="9 digits personal phone">
+            <h3></h3>
+
+            <h2>Contact Preference:</h2>
+            <input id="contactpref" name="pref" type="checkbox" value="phone"/>By Phone<br>
+            <input id="contactpref" name="pref" type="checkbox" value="email"/>By Email<br>
+            <h3></h3>
+
+            <h3>Do you want to receive weekly newsletter?</h3>
+            <input type="radio" name="news" value="yes" checked/>Yes<br>
+            <input type="radio" name="news" value="no"/>No<br>
+            <h3></h3>
+
+            <h2>Extra notes</h2>
+            <label for="extra1">Further requirements:</label>
+            <br>
+            <textarea name="extranote" id="extra1" cols="30" rows="10" placeholder="ex: Don't let my wife knows"></textarea>></textarea>
+            <h3></h3>
+            <h2>Finished filling your information?</h2>
+            <button type="submit" class="submitbutton">Submit now!</button>
+            <button type="reset">Reset</button>
+        </form>
+
+        <h1>Book Name</h1>
+        <p>ok</p>
+    </div>
+</main>
+
+<div class="globalfooter">
+    <div class="footer-nav-right">
+        <nav class = "footernav">
+            <a href="">About Us</a> |
+            <a href="">Privacy Policy</a> |
+            <a href="">Terms</a> |
+            <a href="">Copyright</a> |
+            <a href="#Contact Us">Contact Us</a>
+        </nav>
+    </div>
+</div>
 </body>
 </html>
