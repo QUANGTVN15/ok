@@ -8,6 +8,7 @@
     background: #1abc9c;
     color: white;
     font-size: 30px;
+    background-image: url("./ok.jpg");
   }
 
 .logo img{
@@ -18,7 +19,6 @@ main {
   margin-top: 15px;
   padding: 10px 16px;
   background-color: #eee;
-  background-image: url("./ok.jpg");
 }
 
 .headerLogo img {
