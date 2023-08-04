@@ -8,7 +8,7 @@
     background: #1abc9c;
     color: white;
     font-size: 30px;
-    background-image: url("./ok.jpg");
+    background-image: url("./mainwall.jpg");
   }
 
 .logo img{
@@ -22,12 +22,15 @@ main {
 }
 
 .headerLogo img {
+  background-color: whitesmoke;
+  border-radius: 100%;
   width: auto;
-  height: 200px;
+  height: 250px;
 }
 
 .header-nav-right a{
   float: right;
+  background-color: black;
   color: white;
   text-align: right;
   padding: 14px 10px;
@@ -43,6 +46,7 @@ main {
   color: antiquewhite;
   margin: 1%;
   border-radius: 2%;
+  background-image: url("./scifibg.jpg");
 }
 .scifi td{
   text-align: center;
