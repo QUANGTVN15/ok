@@ -40,18 +40,22 @@ main {
   border-radius: 10%;
 }
 
+.catname{
+  text-decoration: none;
+  padding-top: 10px;
+}
 
-.scifi{
+.fiction{
   background-color: black;
   color: antiquewhite;
   margin: 1%;
   border-radius: 2%;
-  background-image: url("./scifibg.jpg");
+  background-image: url("./fiction.jpg");
 }
-.scifi td{
+.fiction td{
   text-align: center;
 }
-.scifi img{
+.fiction img{
   width: 60%;
   height: 70%;
   margin-top: 20px;
@@ -60,18 +64,21 @@ main {
   padding: 8px;
 }
 
-.romance{
+.nonfic{
   background-color: palevioletred;
   color: antiquewhite;
-  margin: 30px;
+  margin: 1%;
   border-radius: 2%;
+  background-image: url("./nonfic.jpg");
 }
-.romance img{
-  width: 250px;
-  height: 400px;
+.nonfic td{
+  text-align: center;
+}
+.nonfic img{
+  width: 60%;
+  height: 70%;
   margin-top: 20px;
-  margin-inline: 98px;
-  margin-bottom: 22px;
+  margin-bottom: 20px;
   background-color: white;
   padding: 8px;
 }
