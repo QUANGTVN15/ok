@@ -45,6 +45,11 @@ main {
   padding-top: 10px;
 }
 
+.more-categories{
+  font-size: 30px;
+  padding: 20px;
+}
+
 .fiction{
   background-color: black;
   color: antiquewhite;
@@ -54,6 +59,10 @@ main {
 }
 .fiction td{
   text-align: center;
+}
+.fiction a{
+  text-decoration: none;
+  color: antiquewhite;
 }
 .fiction img{
   width: 60%;
@@ -107,7 +116,7 @@ main {
 .globalfooter{
   margin-top: 30px;
   padding: 20px;
-  background: #1abc9c;
+  background-color: darkblue;
   color: white;
 }
 
