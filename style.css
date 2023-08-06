@@ -50,26 +50,26 @@ main {
   padding: 20px;
 }
 
-.fiction{
+.genre{
   color: antiquewhite;
   margin: 1%;
   border-radius: 2%;
   background-image: url("./picture/fiction.jpg");
 }
-.fiction td{
+.genre td{
   text-align: center;
 }
-.fiction a{
+.genre a{
   text-decoration: none;
   color: whitesmoke;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 150%;
 }
-.fiction p{
+.genre p{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 120%;
 }
-.fiction img{
+.genre img{
   width: 60%;
   height: 70%;
   margin-top: 20px;
@@ -152,6 +152,16 @@ main {
 }
 
 /* non fiction */
+.nonficwall{
+  background-image: url("./picture/nonficwall.jpg");
+}
+.selfhelp{
+  background-image: url("./picture/nonfic.jpg")
+}
+.history{
+  background-image: url("./picture/history.jpg")
+}
+
 
 /* Contact Us */
 .heading{
