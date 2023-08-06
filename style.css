@@ -8,7 +8,7 @@
     background: #1abc9c;
     color: white;
     font-size: 30px;
-    background-image: url("./mainwall.jpg");
+    background-image: url("./picture/mainwall.jpg");
   }
 
 .logo img{
@@ -51,18 +51,23 @@ main {
 }
 
 .fiction{
-  background-color: black;
   color: antiquewhite;
   margin: 1%;
   border-radius: 2%;
-  background-image: url("./fiction.jpg");
+  background-image: url("./picture/fiction.jpg");
 }
 .fiction td{
   text-align: center;
 }
 .fiction a{
   text-decoration: none;
-  color: antiquewhite;
+  color: whitesmoke;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 150%;
+}
+.fiction p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 120%;
 }
 .fiction img{
   width: 60%;
@@ -74,14 +79,23 @@ main {
 }
 
 .nonfic{
-  background-color: palevioletred;
   color: antiquewhite;
   margin: 1%;
   border-radius: 2%;
-  background-image: url("./nonfic.jpg");
+  background-image: url("./picture/nonfic.jpg");
 }
 .nonfic td{
   text-align: center;
+}
+.nonfic a{
+  text-decoration: none;
+  color:whitesmoke;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 150%;
+}
+.nonfic p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 120%;
 }
 .nonfic img{
   width: 60%;
@@ -126,14 +140,20 @@ main {
   margin-right: 10px;
 }
 
-/* Scifi */
+/* fiction */
+.fictionwall{
+  background-image: url("./picture/fictionwall.jpg");
+}
+.scifi{
+  background-image: url("./picture/scifi.jpg")
+}
+.fantasy{
+  background-image: url("./picture/fantasy.jpg")
+}
 
-/* Romance */
+/* non fiction */
 
 /* Contact Us */
-.form{
-
-}
 .heading{
   text-align: center;
   padding: 10px 16px;
