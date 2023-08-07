@@ -1,18 +1,12 @@
 /* Main Page */
-.body{
-  ?
-}
-
 .globalheader {
     padding: 80px;
     background: #1abc9c;
     color: white;
     font-size: 30px;
-    background-image: url("./picture/mainwall.jpg");
-  }
-
-.logo img{
-  ??
+}
+#mainwall{
+  background-image: url("./picture/mainwall.jpg");
 }
 
 main {
@@ -54,7 +48,6 @@ main {
   color: antiquewhite;
   margin: 1%;
   border-radius: 2%;
-  background-image: url("./picture/fiction.jpg");
 }
 .genre td{
   text-align: center;
@@ -77,34 +70,13 @@ main {
   background-color: white;
   padding: 8px;
 }
-
-.nonfic{
-  color: antiquewhite;
-  margin: 1%;
-  border-radius: 2%;
+#fiction{
+  background-image: url("./picture/fiction.jpg");
+}
+#nonfic{
   background-image: url("./picture/nonfic.jpg");
 }
-.nonfic td{
-  text-align: center;
-}
-.nonfic a{
-  text-decoration: none;
-  color:whitesmoke;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 150%;
-}
-.nonfic p{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 120%;
-}
-.nonfic img{
-  width: 60%;
-  height: 70%;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  background-color: white;
-  padding: 8px;
-}
+
 
 .catname{
   text-align: center;
@@ -141,24 +113,24 @@ main {
 }
 
 /* fiction */
-.fictionwall{
+#fictionwall{
   background-image: url("./picture/fictionwall.jpg");
 }
-.scifi{
+#scifi{
   background-image: url("./picture/scifi.jpg")
 }
-.fantasy{
+#fantasy{
   background-image: url("./picture/fantasy.jpg")
 }
 
 /* non fiction */
-.nonficwall{
+#nonficwall{
   background-image: url("./picture/nonficwall.jpg");
 }
-.selfhelp{
+#selfhelp{
   background-image: url("./picture/nonfic.jpg")
 }
-.history{
+#history{
   background-image: url("./picture/history.jpg")
 }
 
