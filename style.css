@@ -241,6 +241,12 @@ ul.breadcrumb li a:hover {
   .book-content {
       flex-direction: column;
   }
+  .small-images {
+    display: flex;
+    width: 50%;
+    flex-direction:row;
+    justify-content: space-between;
+  }
 
   .book-images, .right-section {
       width: 100%;
