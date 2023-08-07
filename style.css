@@ -176,15 +176,75 @@ ul.breadcrumb li a:hover {
   text-decoration: underline;
 }
 
-.bookinfo{
-  padding: 10px 16px;
-  list-style: none;
-  background-color: #eee;
+.book-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.bookdescrip{
-  
+.book-images {
+  width: 30%;
 }
-.bookdescrip p{
-  font-size:medium;
+
+.large-image {
+  width: 100%;
+  background-color: black;
+  padding: 8px ;
 }
+
+.right-section {
+  width: 65%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.small-images {
+  display: flex;
+  width: 50%;
+  flex-direction:column;
+  justify-content: space-between;
+}
+
+.small-images img {
+  width: 30%;
+  margin-bottom: 10px;
+  background-color: black;
+  padding: 8px ;
+}
+
+.book-details {
+  width: 50%;
+  text-align:center;
+  margin-top: 25%;
+}
+
+.price {
+  font-size: 24px;
+  color: #333;
+}
+
+.add-to-cart {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.book-description {
+  margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+  .book-content {
+      flex-direction: column;
+  }
+
+  .book-images, .right-section {
+      width: 100%;
+      text-align: center;
+  }
+}
+

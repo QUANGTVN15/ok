@@ -8,10 +8,10 @@
     <title>Document</title>
 </head>
 <body>
-<header class="globalheader">
+<header class="globalheader" id="mainwall">
     <div class="headerLogo">
         <a href="index.html">
-            <img src="logo.png" alt="LeLogo">
+            <img src="./picture/logo.png" alt="LeLogo">
         </a>
     </div>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -28,14 +28,31 @@
 <ul class="breadcrumb">
     <li><a href="#">Home</a></li>
     <li><a href="#">Categories</a></li>
+    <li><a href="#">Subcat</a></li>
     <li>Mission Impossible</li>
 </ul>
 
 <main class="bookinfo">
 
-    <div class="bookdescrip">
-        <h1>Book Name</h1>
-        <p>ok</p>
+    <div class="book-content">
+        <div class="book-images">
+            <img class="large-image" src="./picture/MI.jpg" alt="Large Book Image">
+        </div>
+        <div class="right-section">
+            <div class="small-images">
+                <img src="./picture/MI.jpg" alt="Small Book Image 1">
+                <img src="./picture/MI.jpg" alt="Small Book Image 2">
+                <img src="./picture/MI.jpg" alt="Small Book Image 3">
+            </div>
+            <div class="book-details">
+                <p class="price">$19.99</p>
+                <button class="add-to-cart">Add to cart</button>
+            </div>
+        </div>
+    </div>
+    <div class="book-description">
+        <h2>Book Name</h2>
+        <p>Book description goes here...</p>
     </div>
 </main>
 
