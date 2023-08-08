@@ -23,6 +23,7 @@ main {
 }
 
 .header-nav-right a{
+  font-family: 'Oswald', cursive;
   float: right;
   background-color: black;
   color: white;
@@ -76,11 +77,11 @@ center a:hover{
 .genre a{
   text-decoration: none;
   color: whitesmoke;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Oswald', cursive;
   font-size: 150%;
 }
 .genre p{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Oswald', cursive;
   font-size: 120%;
 }
 .genre img{
@@ -136,12 +137,17 @@ center a:hover{
   background-image: url("./picture/fictionwall.jpg");
 }
 #scifi{
-  background-image: url("./picture/scifi.jpg")
+  background-image: url("./picture/scifi.jpg");
+}
+#scifi a{
+  font-family: 'Handjet', cursive;
 }
 #fantasy{
   background-image: url("./picture/fantasy.jpg")
 }
-
+#fantasy a{
+  font-family: 'Indie Flower', cursive;
+}
 /* non fiction */
 #nonficwall{
   background-image: url("./picture/nonficwall.jpg");
@@ -149,8 +155,14 @@ center a:hover{
 #selfhelp{
   background-image: url("./picture/nonfic.jpg")
 }
+#selfhelp a{
+  font-family: 'Oswald', cursive;
+}
 #history{
   background-image: url("./picture/history.jpg")
+}
+#history a{
+  font-family: 'Dancing Script', cursive;
 }
 
 
