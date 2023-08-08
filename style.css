@@ -34,10 +34,32 @@ main {
   border-style:solid ;
   border-radius: 10%;
 }
+
+
+.mobile-nav-icon {
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  font-size: 20px;
+  background-color: Black;
+  display: none;
+}
+.headernav{
+  display: flex;
+  flex-direction: row-reverse;
+}
 .headernav a:hover{
   color: black;
   background-color: white;
 }
+.headernav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 
 .catname{
   text-decoration: none;
@@ -209,7 +231,7 @@ ul.breadcrumb li a:hover {
 
 .book-content {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap:wrap;
   justify-content: space-between;
 }
 
@@ -245,9 +267,11 @@ ul.breadcrumb li a:hover {
 }
 
 .book-details {
+  display: flex;
+  flex-direction: column;
   width: 50%;
-  text-align:center;
-  margin-top: 25%;
+  justify-content: center;
+  align-items: center;
 }
 
 .price {
@@ -269,14 +293,65 @@ ul.breadcrumb li a:hover {
 }
 
 @media (max-width: 768px) {
+  .headernav {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    padding: 5px 20px;
+  }
+
+  .headernav ul {
+    flex-direction: column;
+    align-items:start;
+    margin-top: 20px;
+  }
+
+  .headernav li {
+    margin-right: 0;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+
+  .headernav {
+    display: none;
+  }
+
+  .mobile-nav-icon {
+    display: block;
+  }
+
+  .mobile-nav-icon:hover+.headernav {
+    display: block;
+  }
+
+  .headernav:hover {
+    display: block;
+  }
+  
+
   .book-content {
-      flex-direction: column;
+    flex-direction: column;
+  }
+  .book-images{
+    justify-content: center;
+    align-items: center;
+  }
+  .book-images img{
+    width: 70%;
+  }
+  .right-section{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .small-images {
     display: flex;
     width: 50%;
     flex-direction:row;
-    justify-content: space-between;
+    justify-content: space-around;
+  }
+  .small-images img{
+    margin: 10%;
   }
 
   .book-images, .right-section {
@@ -285,3 +360,33 @@ ul.breadcrumb li a:hover {
   }
 }
 
+
+/* Books alternate*/
+.genre{
+  display: flex;
+  flex-direction: column;
+}
+
+.boks{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.bok{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bok a{
+  text-align: center;
+}
+
+@media (max-width: 768px){
+  .boks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
