@@ -11,6 +11,7 @@
     <title>Document</title>
 </head>
 <body>
+    
 <header class="globalheader" id="mainwall">
     <div class="headerLogo">
         <a href="index.html" class="logo">
@@ -19,10 +20,14 @@
     </div>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <div class="header-nav-right">
+        <div class="mobile-nav-icon">☰</div>
         <nav class = "headernav">
-            <a href="index.html"><i class="fa fa-fw fa-home"></i>Home</a>
-            <a href="fiction.html"><i class="fa fa-fw fa-rocket"></i>Fiction</a>
-            <a href="nonfic.html"><i class="fa fa-fw fa-star"></i>Non-Fiction</a>
+            <ul>
+                <li><a href="index.html"><i class="fa fa-fw fa-home"></i>Home</a></li>
+                <li><a href="fiction.html"><i class="fa fa-fw fa-rocket"></i>Fiction</a></li>
+                <li><a href="nonfic.html"><i class="fa fa-fw fa-star"></i>Non-Fiction</a></li>
+            </ul>
+            
         </nav>
     </div>
 </header>
@@ -33,46 +38,58 @@
     <div class="form">
         <form action="" method="get"></form>
             <h2>What do you want to do?</h2>
-            <label for="choose-purpose">Purpose:</label>
-            <select name="purpose" id="choose-purpose">
-                <option value="">--Choose an option--</option>
-                <option value="buy">I want to buy books</option>
-                <option value="sell">I want to sell books</option>
-            </select>
+            <div class="enter">
+                <label for="choose-purpose">Purpose:</label>
+                <select name="purpose" id="choose-purpose">
+                    <option value="">--Choose an option--</option>
+                    <option value="buy">I want to buy books</option>
+                    <option value="sell">I want to sell books</option>
+                </select>
+            </div>
             
             <h2>Enter your personal information</h2>
-            <label for="customername">Name:</label>
-            <input id="customername" name="customername" type="text" placeholder="Quang">
+            <div class="enter">
+                <label for="customername">Name:</label>
+                <input id="customername" name="customername" type="text" placeholder="Quang">
+            </div> 
             <h3></h3>
-            <label for="customeremail">Email:</label>
-            <input id="customeremail" name="customeremail" type="email" placeholder="example@gmail.com">
+            <div class="enter">
+                <label for="customeremail">Email:</label>
+                <input id="customeremail" name="customeremail" type="email" placeholder="example@gmail.com">
+            </div>
             <h3></h3>
-            <label for="customerphone">Phone:</label>
-            <input id="customerphone" name="customerphone" type="number" placeholder="9 digits personal phone">
+            <div class="enter">
+                <label for="customerphone">Phone:</label>
+                <input id="customerphone" name="customerphone" type="number" placeholder="9 digits personal phone">
+            </div>
             <h3></h3>
 
             <h2>Contact Preference:</h2>
-            <input id="contactpref" name="pref" type="checkbox" value="phone"/>By Phone<br>
-            <input id="contactpref" name="pref" type="checkbox" value="email"/>By Email<br>
+            <div class="check">
+                <div><input id="contactpref" name="pref" type="checkbox" value="phone"/>By Phone<br></div>
+                <div><input id="contactpref" name="pref" type="checkbox" value="email"/>By Email<br></div>
+            </div>
             <h3></h3>
 
             <h3>Do you want to receive weekly newsletter?</h3>
-            <input type="radio" name="news" value="yes" checked/>Yes<br>
-            <input type="radio" name="news" value="no"/>No<br>
+            <div class="check">
+                <div><input type="radio" name="news" value="yes" checked/>Yes<br></div>
+                <div><input type="radio" name="news" value="no"/>No<br></div>
+            </div>  
             <h3></h3>
 
             <h2>Extra notes</h2>
-            <label for="extra1">Further requirements:</label>
-            <br>
-            <textarea name="extranote" id="extra1" cols="30" rows="10" placeholder="ex: Don't let my wife knows"></textarea>></textarea>
+            <div class="enter">
+                <label for="extra1">Further requirements:</label>
+                <textarea name="extranote" id="extra1" rows="10" cols="30" placeholder="ex: Don't let my wife knows"></textarea>
+            </div>
+            
             <h3></h3>
             <h2>Finished filling your information?</h2>
             <button type="submit" class="submitbutton">Submit now!</button>
             <button type="reset">Reset</button>
         </form>
 
-        <h1>Book Name</h1>
-        <p>ok</p>
     </div>
 </main>
 
@@ -84,13 +101,14 @@
 <div class="globalfooter">
     <div class="footer-nav-right">
         <nav class = "footernav">
-            <a href="">About Us</a> |
-            <a href="">Privacy Policy</a> |
-            <a href="">Terms</a> |
-            <a href="">Copyright</a> |
-            <a href=".\contact.html">Contact Us</a>
+            <a href="about.html">About Us</a> |
+            <a href="policy.html">Privacy Policy</a> |
+            <a href="term.html">Terms</a> |
+            <a href="copyright.html">Copyright</a> |
+            <a href="./contact.html">Contact Us</a>
         </nav>
     </div>
 </div>
+
 </body>
 </html>

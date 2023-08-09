@@ -203,6 +203,22 @@ main {
   font-size: 20px;
 }
 
+.enter{
+  display: flex;
+  flex-direction: row;
+}
+.check{
+  display: flex;
+  flex-direction: row;
+}
+
+
+@media (max-width: 768px){
+  .enter{
+    flex-direction: column;
+  }
+}
+
 /* Books */
 ul.breadcrumb {
   text-align: center;
@@ -413,3 +429,5 @@ ul.breadcrumb li a:hover {
     width: 60%;
   }
 }
+
+
