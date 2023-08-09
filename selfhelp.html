@@ -11,7 +11,8 @@
     <title>Document</title>
 </head>
 <body>
-<header class="globalheader" id="nonficwall">
+
+<header class="globalheader" id="mainwall">
     <div class="headerLogo">
         <a href="index.html" class="logo">
             <img src="./picture/logo.png" alt="Transparent Logo of Website with white Background">
@@ -19,10 +20,14 @@
     </div>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <div class="header-nav-right">
+        <div class="mobile-nav-icon">☰</div>
         <nav class = "headernav">
-            <a href="index.html"><i class="fa fa-fw fa-home"></i>Home</a>
-            <a href="fiction.html"><i class="fa fa-fw fa-rocket"></i>Fiction</a>
-            <a href="nonfic.html"><i class="fa fa-fw fa-star"></i>Non-Fiction</a>
+            <ul>
+                <li><a href="index.html"><i class="fa fa-fw fa-home"></i>Home</a></li>
+                <li><a href="fiction.html"><i class="fa fa-fw fa-rocket"></i>Fiction</a></li>
+                <li><a href="nonfic.html"><i class="fa fa-fw fa-star"></i>Non-Fiction</a></li>
+            </ul>
+            
         </nav>
     </div>
 </header>
@@ -37,45 +42,24 @@
     <section class="genre" id="selfhelp">
         <h2 class="catname"><a class="catname" href="selfhelp.html">Self-Help</a></h2>
 
-        <table>
-            <tbody>
-                <tr>
-                    <td>
-                        <div>
-                            <a href="book"><img src="./picture/rich.jpg" alt="Think & Grow Rich book cover"></a>
-                        </div>
-                        <div>
-                            <center>
-                                <a href="book">Think & Grow Rich</a>
-                                <p>30$</p>
-                            </center>
-                        </div>
-                    </td>
-                    <td>
-                        <div>
-                            <a href="book"><img src="./picture/dale.jpg" alt="How To Win Friends & Influence People book cover"></a>
-                        </div>
-                        <div>
-                            <center>
-                                <a href="book">How To Win Friends & Influence People</a>
-                                <p>30$</p>
-                            </center>
-                        </div>
-                    </td>
-                    <td>
-                        <div>
-                            <a href="book"><img src="./picture/wolf.jpg" alt="The Wolf of Wall Street book cover"></a>
-                        </div>
-                        <div>
-                            <center>
-                                <a href="book">The Wolf of Wall Street</a>
-                                <p>30$</p>
-                            </center>
-                        </div>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="books">
+            <div class="book">
+                <a href="book"><img src="./picture/rich.jpg" alt="Think & Grow Rich book cover"></a>
+                <a href="book" class="bookname">Think & Grow Rich</a>
+                <p>30$</p>
+            </div>
+            <div class="book">
+                <a href="book"><img src="./picture/dale.jpg" alt="How To Win Friends & Influence People book cover"></a>
+                <a href="book" class="bookname">How To Win Friends & Influence People</a>
+                <p>30$</p>
+            </div>
+            <div class="book">
+                <a href="book"><img src="./picture/wolf.jpg" alt="The Wolf of Wall Street book cover"></a>
+                <a href="book" class="bookname">The Wolf of Wall Street</a>
+                <p>30$</p>
+            </div>
+        </div>
+
     </section>
     <section class="more-categories">
         <a href="">More Categories</a>

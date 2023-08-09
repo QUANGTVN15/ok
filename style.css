@@ -77,12 +77,6 @@ main {
   background-color: white;
 }
 
-center a:hover{
-  border-radius: 3%;
-  color: black;
-  background-color: white;
-}
-
 .more-categories{
   font-size: 30px;
   padding: 20px;
@@ -93,15 +87,20 @@ center a:hover{
   margin: 1%;
   border-radius: 2%;
 }
-.genre td{
-  text-align: center;
-}
+
 .genre a{
   text-decoration: none;
   color: whitesmoke;
   font-family: 'Oswald', cursive;
   font-size: 150%;
 }
+
+.bookname:hover{
+  border-radius: 3%;
+  color: black;
+  background-color: white;
+}
+
 .genre p{
   font-family: 'Oswald', cursive;
   font-size: 120%;
@@ -292,6 +291,14 @@ ul.breadcrumb li a:hover {
   margin-top: 50px;
 }
 
+@media (max-width: 430px){
+  .headerLogo img{
+    height: auto;
+    width: 100%;
+  }
+}
+
+
 @media (max-width: 768px) {
   .headernav {
     flex-direction: column;
@@ -361,30 +368,35 @@ ul.breadcrumb li a:hover {
 }
 
 
-/* Books alternate*/
+/*Responsive Genre*/
 .genre{
-  display: flex;
-  flex-direction: column;
-}
-
-.boks{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.bok{
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.bok a{
+.books{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.book{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.book a{
   text-align: center;
+  width: 100%;
+}
+.books img{
+  height: 80%;
 }
 
 @media (max-width: 768px){
-  .boks{
+  .books{
     display: flex;
     flex-direction: column;
     align-items: center;
